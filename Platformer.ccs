@@ -1,0 +1,101 @@
+<Solution>
+  <PropertyGroup Name="Platformer" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="background">
+          <Image Name="backgroundLong.png" />
+          <Image Name="backgroundLong2.png" />
+          <Image Name="backgroundLong3.png" />
+          <Image Name="bg_dead.png" />
+          <Image Name="bg_grasslands.png" />
+          <Image Name="IntroBG.png" />
+        </Folder>
+        <Folder Name="enemies">
+          <Image Name="cloud.png" />
+          <Image Name="enemyFlying_1.png" />
+          <Image Name="enemyFlying_2.png" />
+          <Image Name="enemyFlying_3.png" />
+          <Image Name="enemyFlying_5.png" />
+          <Image Name="enemyFlying_6.png" />
+          <Image Name="enemyFlying_7.png" />
+          <Image Name="flame.png" />
+          <Image Name="lighting_yellow.png" />
+          <Image Name="sun1.png" />
+          <Image Name="sun2.png" />
+        </Folder>
+        <Folder Name="GameInfo">
+          <Project Name="GameInfo.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="GameIntroduce">
+          <Project Name="GameIntroduce.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="GameMenu">
+          <Project Name="GameMenu.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="GameStart">
+          <Project Name="level_0.csd" Type="Scene" />
+          <Project Name="level_1.csd" Type="Scene" />
+          <Project Name="level_2.csd" Type="Scene" />
+          <Project Name="level_3.csd" Type="Scene" />
+          <Project Name="UI.csd" Type="Layer" />
+        </Folder>
+        <Folder Name="tiles">
+          <Image Name="bridge.png" />
+          <Image Name="DoorOpen.png" />
+          <Image Name="dream.png" />
+          <Image Name="exit.png" />
+          <Image Name="exitDead.png" />
+          <Image Name="grassCenterLong.png" />
+          <Image Name="grassCenterMiddle.png" />
+          <Image Name="grassCenterShort.png" />
+          <Image Name="GrassLanddead.png" />
+          <Image Name="GrassLands.png" />
+          <Image Name="grassLonghelf.png" />
+          <Image Name="helfGrass.png" />
+          <Image Name="hellquestion.png" />
+          <Image Name="hellquestion1.png" />
+          <Image Name="helltitle.png" />
+          <Image Name="hill_large.png" />
+          <Image Name="info.png" />
+          <Image Name="information.png" />
+          <Image Name="ladder.png" />
+          <Image Name="menu.png" />
+          <Image Name="Over.png" />
+          <Image Name="restart.png" />
+          <Image Name="rope.png" />
+          <Image Name="ropelong.png" />
+          <Image Name="ropemiddle.png" />
+          <Image Name="ropeshort.png" />
+          <Image Name="shroomRed.png" />
+          <Image Name="spikes.png" />
+          <Image Name="spikes2.png" />
+          <Image Name="spikes3.png" />
+          <Image Name="springboardUp.png" />
+          <Image Name="start.png" />
+          <Image Name="stem.png" />
+          <Image Name="stemBaseAlt.png" />
+          <Image Name="stemTopAlt.png" />
+          <Image Name="stemTopAlthelf.png" />
+          <Image Name="title.png" />
+          <Image Name="wake.png" />
+          <Image Name="Win.png" />
+        </Folder>
+        <Folder Name="UI">
+          <Image Name="carrot.png" />
+          <Image Name="carrot_gold.png" />
+          <Image Name="carrots.png" />
+          <Image Name="coin_gold.png" />
+          <Image Name="gold_1.png" />
+          <Image Name="gold_2.png" />
+          <Image Name="gold_3.png" />
+          <Image Name="gold_4.png" />
+          <Image Name="gold_5.png" />
+          <Image Name="gold_6.png" />
+          <Image Name="lifes.png" />
+        </Folder>
+        <TTF Name="Kenney Future.ttf" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>

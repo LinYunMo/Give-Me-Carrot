@@ -1,0 +1,5 @@
+<COLLISION>
+<ELEMENTS name="grassLong" type="0" id="001"/>
+<ELEMENTS name="ExitDoor" type="1" id="101"/>
+<ELEMENTS name="RestartDoor" type="1" id="105"/>
+</COLLISION>

@@ -1,0 +1,9 @@
+<COLLISION>
+<ELEMENTS name="grassLong" type="0" id="001"/>
+<ELEMENTS name="helfGrass_1" type="0" id="002"/>
+<ELEMENTS name="helfGrass_2" type="0" id="003"/>
+<ELEMENTS name="ExitDoor" type="1" id="101"/>
+<ELEMENTS name="InfoDoor" type="1" id="102"/>
+<ELEMENTS name="StartDoor" type="1" id="103"/>
+<ELEMENTS name="ladder" type="2" id="201"/>
+</COLLISION>

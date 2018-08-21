@@ -1,0 +1,15 @@
+#include "bass.h"
+#pragma comment(lib, "bass.lib")
+
+//初始化声音库
+HRESULT hResult=::BASS_Init(-1, 44100, 0, NULL,NULL);
+//装载一个声音文件，成功返回一个HSTREA的 变量
+HSTREAM Sound = ::BASS_StreamCreateFile(FALSE, "bt.mp3", 0, 0, 0);
+//播放一个声音文件	
+::BASS_ChannelPlay(Sound, true);
+//停止播放一个声音文件	
+::BASS_ChannelStop(Sound);
+//暂停播放一个声音文件	
+::BASS_ChannelPause(Sound);
+//释放声音库
+::BASS_Free();
